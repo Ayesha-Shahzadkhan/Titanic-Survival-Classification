@@ -12,4 +12,4 @@ survived or not based on features like age, gender, ticket class, and fare.
 891 real passenger records from the Titanic (Kaggle Dataset).
 
 ## Live Demo
-[Click here to try the live app](YOUR_STREAMLIT_LINK_HERE)
+[Click here to try the live app](https://titanic-survival-classification-ghkvwnhuzgwjqeszpnwrzm.streamlit.app/)

@@ -3,7 +3,7 @@ import pandas as pd
 import pickle
 
 model = pickle.load(open('model.pkl','rb'))
-le = pickle.load(open('encoder.pkl','rb'))
+le = pickle.load(open('label.pkl','rb'))
 
 st.title("Titanic Survival Prediction")
 

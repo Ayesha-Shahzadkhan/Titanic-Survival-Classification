@@ -21,7 +21,7 @@ if st.button("🔮 Predict", use_container_width=True):
     sex_encoded = 1 if sex=='Male' else 0
     
     input_data = pd.DataFrame([[age,sex_encoded,pclass,fare]],
-                              columne=['Age','Sex','Pclass','Fare'])
+                              columns=['Age','Sex','Pclass','Fare'])
     prediction = model.predict(input_data)[0]
     probability = model.predict_proba(input_data)[0]
 
